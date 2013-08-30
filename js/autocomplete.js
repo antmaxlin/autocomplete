@@ -125,8 +125,8 @@ function autocomplete_n(e, div, text){
 	ajax1.httpRequest();
 }
 
-function noPopup(div){
-	
+function divHide(div){
+	document.getElementById(div).style.visibility='hidden';
 }
 function mouseSelect(y){
 	var x = document.getElementById('auto_counter');

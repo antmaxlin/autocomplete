@@ -40,7 +40,7 @@
             </div>
                         
             <div id='searchText'>
-                <input type='text' size='30' id='obj_name' name='obj_name' onkeyup='autocomplete_n(event,"autocomplete_n", "obj_name")'/>
+                <input type='text' size='30' id='obj_name' name='obj_name' onkeyup='autocomplete_n(event,"autocomplete_n", "obj_name")' onblur='divHide("autocomplete_n")'/>
                     <input type='submit' value='search'>
                     <input type='hidden' name='submitted' value='TRUE' />
             </div>
