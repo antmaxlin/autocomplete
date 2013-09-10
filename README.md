@@ -18,6 +18,10 @@ output: object name, image, url
 
 Edit style.css to position response box
 
+Sample
+======
+http://anime.weflect.com/demo/autocomplete/
+
 License
 =======
 Free to all.
